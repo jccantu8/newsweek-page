@@ -1,0 +1,170 @@
+body {
+	background-color: #ebebeb;
+}
+
+header {
+	background-color: white;
+}
+
+header .top {
+	background-color: red;
+	color: white;
+}
+
+header .top a {
+	padding: 5px;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+header .bottom .navbar-nav > li {
+  border-right: 1px solid #000;
+}
+
+header .navbar-nav > li:last-child{
+   border: none;
+}
+
+header .bottom a {
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+}
+
+header .bottom a:hover {
+	color: red;
+}
+
+main {
+	margin-top: 2px;
+	background-color: white;
+}
+
+main h3 {
+	font-size: 16px;
+	color: rgba(3,3,3,0.4);
+}
+
+main h4 {
+	font-weight: bolder;
+	font-size: 24px;
+	color: black;
+}
+
+main h4 a {
+	text-decoration: none;
+	color: black;
+}
+
+main h4 a:hover {
+	text-decoration: underline;
+	color: black;
+	text-decoration-color: red;
+}
+
+main p {
+	font-size: 15px;
+	color: #333333;
+}
+
+main .right .opinion h4 {
+	font-size: 17px;
+}
+
+main .right .opinion img {
+	float: left;
+	padding-right: 4px;
+}
+
+main .right .opinion .authors {
+	font-size: 14px;
+	color: #555555;
+}
+
+main .middle .heroes h4 {
+	color: #272727;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+main .middle .heroes p {
+	color: rgba(39,39,39,.5);
+	font-size: 15px;
+	font-weight: normal;
+}
+
+main .middle .culture h4 {
+	color: #272727;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+main .middle .culture p {
+	color: rgba(39,39,39,.5);
+	font-size: 15px;
+	font-weight: normal;
+}
+
+main .middle .more-stories h4 {
+	font-size: 17px;
+}
+
+main .middle .more-stories img {
+	float: left;
+	padding-right: 4px;
+}
+
+main .right .latest-news {
+	padding-top: 5px;
+}
+
+main .right .latest-news img {
+	float: left;
+	padding-right: 4px;
+}
+
+main .right .latest-news h4 {
+	font-size: 17px;
+}
+
+main .in-the-magazine .topic {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+main .in-the-magazine .topic div.one {
+	background-color: red;
+	font-size: 16px;
+	color: white;
+	padding: 4px;
+	font-weight: bolder;
+}
+
+main .in-the-magazine .topic div.two {
+	background-color: white;
+	font-size: 16px;
+	color: red;
+	padding: 4px;
+	font-weight: bolder;
+}
+
+main .in-the-magazine h4 {
+	font-size: 20px;
+}
+
+footer {
+	margin-top: 2px;
+	background-color: white;
+	font-size: 14px;
+	color: #666666;
+}
+
+footer a {
+	text-decoration: none;
+	color: #666666;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: black;
+}
